@@ -16,7 +16,7 @@ public class Student {
     //method 1
     public Double studentAvg(){
         double total = 0;
-        for(int i = 0; i<grades.size()-1;i++){
+        for(int i = 0; i<grades.size();i++){
             total += grades.get(i);
         }
         return total/grades.size();
