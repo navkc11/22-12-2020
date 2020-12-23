@@ -15,8 +15,8 @@ public class Point {
     //method 1
     public Point middle(Point x){
         Point y = new Point(s.nextDouble(),s.nextDouble());
-        double width = (x.width = y.width)/2;
-        double height = (x.height = y.height)/2;
+        double width = (x.width + y.width)/2;
+        double height = (x.height + y.height)/2;
         Point z = new Point(width, height);
         return z;
     }
