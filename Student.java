@@ -35,7 +35,7 @@ public class Student {
     //method 4
     public ArrayList<Integer> failures(){
         ArrayList<Integer> failures = new ArrayList<Integer>();
-        for(int i = 0; i<grades.size()-1;i++){
+        for(int i = 0; i<grades.size();i++){
             if(grades.get(i)<=55) {
                 failures.add(grades.get(i));
             }
